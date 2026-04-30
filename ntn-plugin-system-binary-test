@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+echo "github-binary-plugin-v0.1.0"
+echo "env=${NOTION_ENV:-unset}"
+echo "name=${NTN_PLUGIN_NAME:-unset}"
+echo "version=${NTN_PLUGIN_VERSION:-unset}"
+echo "args=$*"
